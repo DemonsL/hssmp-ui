@@ -1,0 +1,29 @@
+  .ivu-table-wrapper { border: none; background: #FFF; border-top: solid 1px #DDD; }
+  .ivu-table:after { background-color: #f8f8f9;}
+  .etools button { width: 24px; height: 24px; border: none; background-color: transparent; padding: 0;  }
+  .tools_icon_edit { background-image: url(../../assets/images/icon_tools_edit.png); }
+  .tools_icon_ok { background-image: url(../../assets/images/icon_tools_ok.png);}
+  .tools_icon_no { background-image: url(../../assets/images/icon_tools_no.png); }
+  .tools_icon_del { background-image: url(../../assets/images/icon_tools_del.png);}
+
+  .v-transfer-dom .ivu-btn {color:#818181;background-color: #d8d7d7; border-color: #dcdee2;}
+  .v-transfer-dom .ivu-btn.ivu-btn-primary {background-color: #1b63c0;color:#FFF;}
+  .ivu-modal-wrap * { box-sizing: border-box; -webkit-tap-highlight-color: transparent;}
+  .state-ok .ivu-table-cell span,
+  .state-no .ivu-table-cell span { display: inline-block; width: 24px; height: 24px;
+    background-image: url(../../assets/images/icon_tools_ok.png);
+    text-indent: -9999px;
+  }
+  .state-no .ivu-table-cell span { background-image: url(../../assets/images/icon_tools_no.png);  }
+  .ivu-switch {  border-color: #db4443; background-color: #db4443;}
+  .ivu-switch-checked { border-color: #47c67b; background-color: #47c67b; }
+  .winbox-edit.add-member{padding-right: 150px;}
+  .winbox-edit.info-edit li > label{width:30%;}
+  .winbox-edit.info-edit li .ivu-input-wrapper{ width:50%;}
+  .winbox-edit.info-edit li .ivu-radio-group > label{width:auto;}
+  .winbox-edit.info-edit li > label.nos::before{display:none;}
+  .winbox-edit.info-edit li > label:before {
+      content: '*';display: inline-block;margin-right: 4px;line-height: 1;font-family: SimSun;font-size: 14px;color: #ed4014;
+  }
+  .winbox-edit.info-edit .ivu-checkbox-group{display:inline-block;width:60%;vertical-align: middle;}
+  .winbox-edit.info-edit .ivu-checkbox-group label{width: auto; float: left;display:inline-block;}
